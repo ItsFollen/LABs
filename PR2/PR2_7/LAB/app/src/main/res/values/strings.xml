@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UI elements</string>
+    <string name="Check">Check</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+    <string name="RBtn1">RadioButton 1</string>
+    <string name="RBtn2">RadioButton 2</string>
+    <string name="Btn">Show</string>
+</resources>

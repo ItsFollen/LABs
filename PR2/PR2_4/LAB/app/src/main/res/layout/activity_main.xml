@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/tvTitle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/km"
+            style="@style/etTitle"
+            android:layout_width="103dp"
+            android:hint="в км"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="@string/km" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/m"
+            style="@style/etTitle"
+            android:layout_width="103dp"
+            android:hint="в м"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="@string/m" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dm"
+            style="@style/etTitle"
+            android:layout_width="103dp"
+            android:hint="в дм"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dm" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/sm"
+            style="@style/etTitle"
+            android:layout_width="103dp"
+            android:hint="в см"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sm" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/mm"
+            style="@style/etTitle"
+            android:layout_width="103dp"
+            android:hint="в мм"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mm" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/inspect"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inspect">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/rezult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ImageView>
+</LinearLayout>

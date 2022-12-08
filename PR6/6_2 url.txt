@@ -1,0 +1,2 @@
+https://api.vk.com/method/users.get?user_id=
+Выдает ошибку, но у нас задача в том, чтобы запрос прошел

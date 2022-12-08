@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vertical"
+            android:textColor="@color/text"/>
+    </TableRow>
+
+    <TableRow
+        style="@style/layoutStyleV"
+        android:background="@color/red">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="КАЖДЫЙ" />
+    </TableRow>
+
+    <TableRow
+        style="@style/layoutStyleV"
+        android:background="@color/orange">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ОХОТНИК" />
+    </TableRow>
+
+    <TableRow
+        style="@style/layoutStyleV"
+        android:background="@color/yellow">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ЖЕЛАЕТ" />
+    </TableRow>
+
+    <TableRow
+        style="@style/layoutStyleV"
+        android:background="@color/green">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ЗНАТЬ" />
+    </TableRow>
+
+    <TableRow
+        style="@style/layoutStyleV"
+        android:background="@color/azure">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ГДЕ" />
+    </TableRow>
+
+    <TableRow
+        style="@style/layoutStyleV"
+        android:background="@color/blue">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="СИДИТ" />
+    </TableRow>
+
+    <TableRow
+        style="@style/layoutStyleV"
+        android:background="@color/violet">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ФАЗАН" />
+    </TableRow>
+</TableLayout>

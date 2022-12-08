@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Загадай число</string>
+    <string name="textFirstBtn">Начать</string>
+    <string name="textSetRange">Задайте диапазон</string>
+    <string name="textLess">Мое число меньше</string>
+    <string name="textMore">Мое число больше</string>
+    <string name="btnAnswerText">Верно</string>
+</resources>

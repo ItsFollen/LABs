@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Чтение датчиков</string>
+    <string name="sensorAbsentL">На устройстве отсутствует датчик освещенности</string>
+    <string name="sensorAbsentR">На устройстве отсутствует датчик вектора вращения</string>
+    <string name="sensorAbsentA">На устройстве отсутствует датчик вращения относительно геомагнитного поля</string>
+    <string name="light">Показания освещённости</string>
+    <string name="rotor">Показания проекций вектора вращения</string>
+    <string name="accelerometer">Показания акселерометра</string>
+
+</resources>

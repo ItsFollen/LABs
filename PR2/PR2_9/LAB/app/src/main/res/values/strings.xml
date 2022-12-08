@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">adaptive-ui-example</string>
+    <string name="textButton">TEST BUTTON</string>
+</resources>

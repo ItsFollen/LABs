@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Неявные интенты</string>
+    <string name="btnText">Вызов функции</string>
+    <string name="firstRBText">Веб-страница</string>
+    <string name="secondRBText">Карта</string>
+    <string name="thirdRBText">Телефонный звонок</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Мои датчики</string>
+
+    <string-array name="type_sensors">
+        <item>Датчики окружающей среды</item>
+        <item>Датчики положения</item>
+        <item>Датчики состояния человека</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ImagePortrait">
+        <item name="android:src">@drawable/ic_rounded_rectangle</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+    <style name="ImageLandscape">
+        <item name="android:src">@drawable/ic_oval</item>
+        <item name="android:layout_margin">32dp</item>
+    </style>
+</resources>
